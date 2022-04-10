@@ -1,0 +1,33 @@
+.list {
+  width: 600px;
+  display: flex;
+  background-color: #f5f5f5;
+  border: 2px solid #dcdcdc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style: none;
+}
+.item:not(:last-child) {
+  border-right: 1px solid #dcdcdc;
+}
+
+.text {
+  margin-bottom: 7px;
+  font-size: 14px;
+  color: #808080;
+}
+
+.statistic {
+  font-weight: 700;
+  font-size: 16px;
+  color: #220541;
+}
