@@ -1,10 +1,10 @@
 import { Component } from 'react';
 
-import Container from './Container/Container';
-import Section from './Section/Section';
-import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
-import Notification from './Notification/Notification';
-import Statistics from './Statistics/Statistics';
+import Container from './components/Container';
+import Statistics from './components/Statistics';
+import FeedbackOptions from './components/FeedbackOptions';
+import Section from './components/Section';
+import Notification from './components/Notification';
 
 export default class App extends Component {
   state = {
