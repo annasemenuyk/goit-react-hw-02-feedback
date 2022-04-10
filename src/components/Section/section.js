@@ -8,7 +8,7 @@ const Section = ({ title, children }) => {
     </section>
   );
 };
-Sections.PropTypes = {
+Section.PropTypes = {
   title: PropTypes.string.isRequired,
   children: PropTypes.element.isRequired,
 };
