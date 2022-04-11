@@ -1,11 +1,7 @@
 .container {
-  width: 320px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  background-color: var(--secondary-background-color);
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 15px;
   box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
   border-radius: 6px;
   overflow: hidden;

@@ -1,32 +1,32 @@
 import PropTypes from 'prop-types';
-import styles from './Statistics.css';
+import './Statistics.css';
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return (
-    <ul className={styles.list}>
-      <li className={styles.item}>
-        <h2 className={styles.text}>Good</h2>
-        <p className={styles.statistic}>{good} </p>
+    <ul className="list">
+      <li className="Item">
+        <h2 className="Text">Good</h2>
+        <p className="Statistic">{good} </p>
       </li>
 
-      <li className={styles.item}>
-        <h2 className={styles.text}>Neutral</h2>
-        <p className={styles.statistic}>{neutral}</p>
+      <li className="Item">
+        <h2 className="Text">Neutral</h2>
+        <p className="Statistic">{neutral}</p>
       </li>
 
-      <li className={styles.item}>
-        <h2 className={styles.text}>Bad</h2>
-        <p className={styles.statistic}>{bad}</p>
+      <li className="Item">
+        <h2 className="Text">Bad</h2>
+        <p className="Statistic">{bad}</p>
       </li>
 
-      <li className={styles.item}>
-        <h2 className={styles.text}>Total</h2>
-        <p className={styles.statistic}> {total} </p>
+      <li className="Item">
+        <h2 className="Text">Total</h2>
+        <p className="Statistic"> {total} </p>
       </li>
 
-      <li className={styles.item}>
-        <h2 className={styles.text}>Positive Percentage</h2>
-        <p className={styles.statistic}>{positivePercentage}%</p>
+      <li className="Item">
+        <h2 className="Text">Positive Percentage</h2>
+        <p className="Statistic">{positivePercentage}%</p>
       </li>
     </ul>
   );
