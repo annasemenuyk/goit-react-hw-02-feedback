@@ -1,22 +1,29 @@
 .List {
-  display: block;
-  list-style: none;
-  padding: 0;
-  margin-left: 50px;
+  width: 400px;
+  display: flex;
+  border-radius: 4px;
+  text-align: center;
 }
 .Item {
-  margin-bottom: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: calc(100% / 5);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style: none;
 }
 .Item:not(:last-child) {
-  border-right: 1px solid #dcdcdc;
+  margin-right: 10px;
 }
 .Text {
-  margin-bottom: 7px;
+  margin-bottom: 5px;
   font-size: 14px;
   color: #808080;
 }
 .Statistic {
   font-weight: 700;
   font-size: 16px;
-  color: #220541;
+  color: #122236;
 }
