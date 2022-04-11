@@ -1,10 +1,8 @@
 .list {
-  width: 600px;
-  display: flex;
-  background-color: #f5f5f5;
-  border: 2px solid #dcdcdc;
-  border-radius: 5px;
-  text-align: center;
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin-left: 50px;
 }
 
 .item {
