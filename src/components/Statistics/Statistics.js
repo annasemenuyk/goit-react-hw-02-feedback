@@ -3,7 +3,7 @@ import './Statistics.css';
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return (
-    <ul className="list">
+    <ul className="List">
       <li className="Item">
         <h2 className="Text">Good</h2>
         <p className="Statistic">{good} </p>
